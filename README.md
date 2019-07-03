@@ -35,5 +35,5 @@ sudo umount $SRC_DIR/mnt/ext4
 sudo kpartx -d /dev/loop2
 sudo losetup -d /dev/loop2
 cd $SRC_DIR/Downloads
-xz -kvz 2019-06-20-raspbian-buster.img
+xz -kvz -T0 2019-06-20-raspbian-buster.img
 ```
